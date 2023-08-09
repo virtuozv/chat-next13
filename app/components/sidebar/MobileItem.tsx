@@ -37,7 +37,8 @@ const MobileItem: React.FC<MobileItemsProps> = ({
         justify-center
         p-4
         text-gray-500
-        hover:text-blackhover:bg-gray-100
+        hover:text-black
+        hover:bg-gray-100
     `,
         active && "bg-gray-100 text-black"
       )}
